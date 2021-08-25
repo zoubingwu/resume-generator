@@ -1,0 +1,29 @@
+{
+  "name": "resume-generator",
+  "version": "1.0.0",
+  "description": "Write resume with toml, style it with css and generate pdf with puppeteer",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node app.mjs",
+    "compile": "node scripts/compile.mjs",
+    "pdf:local": "node scripts/pdf-local.mjs",
+    "pdf:ci": "node scripts/pdf-ci.mjs",
+    "prepare": "is-ci || husky install"
+  },
+  "author": "zoubingwu",
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@iarna/toml": "^2.2.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "husky": "^7.0.2",
+    "is-ci": "^3.0.0",
+    "mkdirp": "^1.0.4",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "puppeteer-core": "^10.2.0"
+  }
+}

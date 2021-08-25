@@ -1,0 +1,25 @@
+<div class="education">
+  <div class="degree">{{education.degree}}</div>
+  <div>
+    <span>{{education.university}}</span>
+    {{#if education.time}}
+      <span class="time">{{education.time}}</span>
+    {{/if}}
+  </div>
+</div>
+
+<style>
+  .education { padding: 0 24px; }
+
+  .education .degree {
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 24px;
+  }
+
+  .education .time {
+    margin-left: 12px;
+    color: var(--gray-400);
+    font-style: italic;
+  }
+</style>

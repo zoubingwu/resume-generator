@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>resume</title>
+    {{#if en}}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;400&display=swap"
+        rel="stylesheet"
+      />
+      <style>
+        html { font-family: 'Noto Sans SC', sans-serif; }
+      </style>
+    {{else}}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;400&family=Open+Sans&display=swap"
+        rel="stylesheet"
+      />
+      <style>
+        html { font-family: 'Open Sans', sans-serif; }
+      </style>
+    {{/if}}
+    <style>
+      :root { --dark-800: #181818; --gray-400: #a1a1aa; } *, ::before, ::after {
+      box-sizing: border-box; } html { line-height: 1.15; /* 1 */
+      -webkit-text-size-adjust: 100%; /* 2 */ -moz-tab-size: 4; /* 3 */
+      tab-size: 4; /* 3 */ } body { margin: 0; /* 1 */ font-family: inherit;
+      line-height: inherit; } blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr,
+      figure, p, pre { margin: 0; } ol, ul { list-style: none; margin: 0;
+      padding: 0; } h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight:
+      inherit; } a { color: inherit; text-decoration: inherit; }
+    </style>
+  </head>
+  <body>
+    {{{body}}}
+  </body>
+</html>

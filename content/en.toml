@@ -1,0 +1,73 @@
+name = "Xiaoming Wang"
+title = "Front-end developer/Full-stack developer"
+summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper sapien eget neque auctor, eu porta dui mollis. Quisque scelerisque vitae ante in dignissim. Fusce molestie est et egestas sollicitudin. Etiam nulla odio, scelerisque ut ligula fringilla, congue lacinia odio."
+email = "wxm@gmail.com"
+phone = "12345678901"
+location = "Beijing, China"
+url = "github.com/wxm"
+
+[work]
+title = "WORK EXPERIENCE"
+
+[[work.experiences]]
+title = "Senior Frontend Engineer"
+company = "Alibaba Inc."
+time = "03/2018-03/2021"
+location = "Beijing, China"
+desc = [
+  "Etiam at velit et est hendrerit scelerisque vitae a justo. Curabitur mollis volutpat sem, id mattis felis dignissim ac. Morbi semper interdum felis, ut blandit dui euismod at.Etiam mollis nisl ultricies ligula tempor, sed auctor lorem scelerisque.",
+  "Vestibulum a porttitor libero. Praesent quis ante at diam pretium tincidunt. Donec mollis ut lorem vel porttitor. Morbi nec nisl efficitur, aliquet enim at, euismod dolor. Ut eu aliquam massa, a pharetra mi.",
+  "Etiam mollis nisl ultricies ligula tempor, sed auctor lorem scelerisque. Integer molestie lectus felis, at consequat odio luctus at. Sed ornare eu turpis nec convallis. Mauris convallis felis augue. ",
+]
+
+[[work.experiences]]
+title = "Senior Frontend Engineer"
+company = "Tencent"
+time = "03/2017-03/2018"
+location = "Beijing, China"
+desc = [
+  "Etiam at velit et est hendrerit scelerisque vitae a justo. Curabitur mollis volutpat sem, id mattis felis dignissim ac. Morbi semper interdum felis, ut blandit dui euismod at.Etiam mollis nisl ultricies ligula tempor, sed auctor lorem scelerisque.",
+  "Vestibulum a porttitor libero. Praesent quis ante at diam pretium tincidunt. Donec mollis ut lorem vel porttitor. Morbi nec nisl efficitur, aliquet enim at, euismod dolor. Ut eu aliquam massa, a pharetra mi.",
+  "Etiam mollis nisl ultricies ligula tempor, sed auctor lorem scelerisque. Integer molestie lectus felis, at consequat odio luctus at. Sed ornare eu turpis nec convallis. Mauris convallis felis augue. ",
+]
+
+[[work.experiences]]
+title = "Senior Frontend Engineer"
+company = "Baidu"
+time = "06/2016-03/2017"
+location = "Beijing, China"
+desc = [
+  "Etiam at velit et est hendrerit scelerisque vitae a justo. Curabitur mollis volutpat sem, id mattis felis dignissim ac. Morbi semper interdum felis, ut blandit dui euismod at.Etiam mollis nisl ultricies ligula tempor, sed auctor lorem scelerisque.",
+  "Vestibulum a porttitor libero. Praesent quis ante at diam pretium tincidunt. Donec mollis ut lorem vel porttitor. Morbi nec nisl efficitur, aliquet enim at, euismod dolor. Ut eu aliquam massa, a pharetra mi.",
+  "Etiam mollis nisl ultricies ligula tempor, sed auctor lorem scelerisque. Integer molestie lectus felis, at consequat odio luctus at. Sed ornare eu turpis nec convallis. Mauris convallis felis augue. ",
+]
+
+[oss]
+title = "OPEN SOURCE PROJECTS"
+
+[[oss.projects]]
+title = "Reactjs"
+url = "https://github.com/facebook/react"
+desc = [
+  "Praesent aliquam eleifend nibh, id gravida felis bibendum non. Integer gravida augue id enim finibus vestibulum. ",
+  "Donec porta quam imperdiet tellus lobortis dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+]
+
+[[oss.projects]]
+title = "Vuejs"
+url = "https://github.com/vuejs/vue"
+desc = [
+  "Sed sit amet massa id ipsum luctus congue et sit amet diam. Suspendisse efficitur nisl ornare pulvinar varius.",
+  "Mauris ullamcorper nisl lorem, fermentum mollis erat cursus id. ",
+]
+
+[education]
+title = "EDUCATION"
+degree = "Bachelor of Applied Science in Computer Science"
+university = "Shanghai Jiao Tong University"
+time = "1998-2002"
+
+[skills]
+title = "SKILLS"
+primary = "Language & Framework: JavaScript, TypeScript, React, Node, Python, Golang"
+secondary = "Other: Git, Linux, Azure, Firebase, VS Code, Goland, Docker, Kubernetes"
